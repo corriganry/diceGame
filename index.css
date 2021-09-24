@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+    text-align: center;
+}
+.dice {
+    background-color: aquamarine;
+    border-color: mistyrose;
+    text-align: center;
+    padding: 30px;
+    border-width: thick;
+    height: 75px;
+    width: 75px;
+    
+}
+.button {
+    padding: 30px;
+    text-align: center;
+}

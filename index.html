@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Ryan Corrigan
+    Class: Software Engineering
+    Description: Dice roller application for my software engineering class
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan Corrigan's Dice Game</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body onload="RollFiveSixSidedDice()">
+    <h1>Ryan Corrigan's Dice Game</h1>
+    <p class="instructions">The goal of this game is to push your luck and achieve a score of higher than 20! Click the button to begin! Good luck!</p>
+
+    <button type="button" onclick="RollFiveSixSidedDice()">Roll Dice</button><br><br>
+    Here's your dice! <br><br>
+    <input class="dice" id = "dice1" type ="text" disabled>
+    <input class="dice" id = "dice2" type ="text" disabled>
+    <input class="dice" id = "dice3" type ="text" disabled>
+    <input class="dice" id = "dice4" type ="text" disabled>
+    <input class="dice" id = "dice5" type ="text" disabled>
+    <br><br>
+
+    <h2>Final Results</h2>
+    The sum of your dice is... <span id="sum"></span><br>
+
+    <span id="winner"></span>
+</body>
+
+</html>
